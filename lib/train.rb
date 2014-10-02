@@ -1,17 +1,17 @@
 class Train
 
-	attr_accessor :carriages
+  attr_accessor :carriages
 
-	def initialize
-		@carriages = 8
-	end
+  def initialize
+	@carriages = 8
+  end
 
-	def arrive(station)
-		station.add(self)
-	end
+  def arrive(station)
+	station.add(self)
+  end
 
-	def leave(station)
-		station.release(self)
-	end
+  def leave(station)
+	station.release(self)
+  end
 
 end

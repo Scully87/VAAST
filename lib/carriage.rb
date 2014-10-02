@@ -16,7 +16,7 @@ class Carriage
   end
 
   def full?
-	passenger_count == @capacity
+	  passenger_count == @capacity
   end
 
 end
