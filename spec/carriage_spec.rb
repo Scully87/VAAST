@@ -13,4 +13,5 @@ describe Carriage do
     40.times { carriage.add(passenger) }
     expect(carriage.full?).to eq(true)
   end
+
 end

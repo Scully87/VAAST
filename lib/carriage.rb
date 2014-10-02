@@ -18,4 +18,5 @@ class Carriage
   def full?
 	passenger_count == @capacity
   end
+
 end
