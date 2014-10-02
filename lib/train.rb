@@ -14,8 +14,4 @@ class Train
 		station.release(self)
 	end
 
-
-
-
-
 end
