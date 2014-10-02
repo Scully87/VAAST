@@ -1,7 +1,7 @@
 class Train
 
   attr_accessor :carriages
-
+  
   def initialize
 	@carriages = 8
   end
