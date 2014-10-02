@@ -1,4 +1,5 @@
 require 'train'
+require 'passenger'
 
 describe Train do
 	
