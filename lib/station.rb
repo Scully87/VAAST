@@ -10,7 +10,7 @@ class Station
   	@trains.count
   end
 
-  def train_add
+  def add(train)
   	@trains << train
   end
 

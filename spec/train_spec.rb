@@ -18,5 +18,5 @@ describe Train do
 		allow(station).to receive(:release)
 		train.leave(station)
 	end
-	
+
 end
