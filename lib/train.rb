@@ -1,9 +1,10 @@
 class Train
 
-  attr_accessor :carriages
+  attr_accessor :carriages, :passengers
   
   def initialize
 	@carriages = 8
+	@passengers = []
   end
 
   def arrive(station)

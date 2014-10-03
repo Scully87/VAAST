@@ -1,9 +1,12 @@
 class Passenger
 
-  attr_accessor :balance
+  attr_accessor :balance, :passenger
 
   def initialize
 	@balance = 2
+	@passengers = []
+	@trains = []
+	
   end
 
   def enter(station)
@@ -15,8 +18,12 @@ class Passenger
 	end
   end
 
+  def passenger_count
+  	@passengers.count 
+  end
+
   def board(train)
-	train.add(self)
+  	@passengers << passenger
   end
 
   def exit(train)
